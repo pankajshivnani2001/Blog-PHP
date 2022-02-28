@@ -1,0 +1,152 @@
+*{
+	font-family: Helvetica;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+div.navbar{
+	width: 100%;
+    background-color: grey;
+    align-items: center;
+    padding: 10px;
+    overflow: auto;
+}
+
+ul{
+	float: right;
+	list-style: none;
+    padding-right: 30px;
+    display: flex;
+}
+
+li{
+	padding: 0 15px;
+	font-size: 20px;
+	letter-spacing: 0.75px;
+	font-weight: 600;
+}
+
+li:hover{
+	cursor: pointer;
+}
+
+.logo img{
+	height: 60px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a.topics{
+	margin-left: 100px;
+}
+
+
+/*Login Page*/
+
+div.loginContainer{
+    color: black;
+    padding: 25px;
+    width: 100%;
+}
+
+div.loginHeading
+{
+	text-align: center;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+div.loginForm
+{
+	text-align: center;
+    padding: 50px;
+    border-top: 3px solid white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.loginForm span{
+	display: block;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.loginForm input[type="text"], .loginForm input[type="password"]{
+	margin: 10px;
+    width: 50%;
+    height: 35px;
+    background: none;
+    border: none;
+    border-bottom: 2.5px solid black;
+    color: grey;
+    font-size: 20px;
+}
+
+.loginForm input[type="text"]:focus, .loginForm input[type="password"]:focus{
+	outline: none;
+}
+
+.loginForm input[type="submit"]{
+	background: none;
+	background-color: #4b4b4b;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px;
+    width: 55%;
+}
+
+.loginForm input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #50C878;
+	border: 1px solid #50C878;
+}
+
+/* Search Bar*/
+input[name="searchQuery"]
+{
+	width: 17%;
+    height: 5%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[name="search"]
+{
+	height: 4%;
+    width: 6%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+
+input[name="search"]:hover{
+	cursor: pointer;
+	background-color: #87ceeb;
+}
+
+div.searchResults{
+	margin: 40px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+div.searchResults h2{
+	border: 2px dotted grey;
+	font-size: 35px;
+	background-color: grey;
+	color: white;
+}
